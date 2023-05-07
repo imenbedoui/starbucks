@@ -1,0 +1,191 @@
+
+
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: tahoma , serif;
+
+}
+
+
+section 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5em;
+    
+}
+
+
+section *
+{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+
+.navbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2em 5em;
+    /* background-color: rgb(255, 0, 242); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+  max-width: 5em;   
+}
+
+.navigation
+{
+    display: flex;
+
+}
+
+.navigation li 
+{
+    margin-right: 2em;
+}
+
+
+.content
+{
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 10em; */
+}
+
+
+.textbox
+{
+    /* background-color: violet; */
+    max-width: 40%;
+}
+
+
+.textbox h1 
+{
+    font-size: 3em;
+
+}
+
+.textbox h1 span 
+{
+    color: #006241;
+    font-size: 1.7em;
+}
+
+
+.textbox p 
+{
+    font-size: 1.2em;
+
+}
+
+.textbox a 
+{
+    display: inline-block;
+    padding: 1em 3em;
+    margin-top: 2em;
+    background-color: #006241;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.imgbox
+{
+    /* background-color: violet; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbox img
+{
+    /* background-color: springgreen; */
+    max-width: 55%;
+    
+}
+
+
+
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #006241;
+    clip-path: circle(75vh at 100% 100%);
+    z-index: -10;
+}
+
+.thumbs
+{
+    position: absolute;
+    bottom: 3em ;
+    /* background-color: orange; */
+    width: 30%;
+    padding: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbs li 
+{
+    width: 15%;
+}
+
+.thumbs li img 
+{
+    width: 100%;
+}
+
+.socials
+{
+    /* padding: 7em 2em; */
+    max-width: 3em;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.socials li 
+{
+    width: 100%;
+    /* margin-bottom: 1.2em; */
+}
+
+.socials li img 
+{
+    width: 100%;
+    scale: .7;
+    filter: invert(1);
+}
+
+
+
+
